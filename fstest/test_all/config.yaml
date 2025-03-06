@@ -528,3 +528,9 @@ backends:
  - backend:  "sqlite"
    remote:   "TestSqlite:"
    fastlist: false
+ - backend:  "kvfs"
+   remote:   "TestKvfs:"
+   fastlist: false
+ - backend:  "telegram"
+   remote:   "TestTelegram:"
+   fastlist: false
